@@ -15,14 +15,14 @@
                 <div class="ui large header">
                     <span style="font-size: 40pt;" class="counter">6,789</span> </br>links cadastrados
                 </div></br>
-                <button class="fluid ui black massive button aleatorizar-btn"><i class="random icon"></i>Aleatorizar um site!</button>
+                <button class="fluid ui black massive button aleatorizar-btn" id="randomizesite"><i class="random icon"></i>Aleatorizar um site!</button>
             </div>
             <div class="column right aligned" style="padding: 50px 40px 0 0;">
                 <button class="ui button black basic">Login</button>
                 <button class="ui button black">Cadastro</button>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="vendor/jquery/jquery-3.1.1.min.js"></script>
         <script src="vendor/waypoints/jquery.waypoints.min.js"></script>
         <script src="vendor/semantic-ui/semantic.min.js"></script>
         <script src="vendor/counter-up/jquery.counterup.min.js"></script>
