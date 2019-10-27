@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
     });
 
     $("#randomizesite").click(function(){
-        var url = 'http://localhost/aleatoriedade.app/gotourl.php';
+        var url = '/random';
 		window.open(url);
     });
 });
