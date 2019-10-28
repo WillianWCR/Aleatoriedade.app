@@ -6,7 +6,7 @@
     <head>
         <title>Aleatoriedade.app!</title>
         <link rel="stylesheet" type="text/css" href="vendor/semantic-ui/semantic.min.css">
-        <link rel="stylesheet" type="text/css" href="dist/home.css">
+        <link rel="stylesheet" type="text/css" href="pages/home/home.css">
     </head>
     <body>
         <div class="ui three column grid" style="height: 100%;">
@@ -29,6 +29,6 @@
         <script src="vendor/waypoints/jquery.waypoints.min.js"></script>
         <script src="vendor/semantic-ui/semantic.min.js"></script>
         <script src="vendor/counter-up/jquery.counterup.min.js"></script>
-        <script src="dist/home.js"></script>
+        <script src="pages/home/home.js"></script>
     </body>
 </html>

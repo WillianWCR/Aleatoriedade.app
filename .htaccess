@@ -2,5 +2,5 @@ RewriteEngine On
 #RewriteCond %{HTTPS} on
 #RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=302,L]
 RewriteCond %{REQUEST_URI} !(public|css)
-RewriteCond %{REQUEST_URI} !(\.css|\.js|\.png|\.jpg|\.gif|robots\.txt|\.docx|\.json|\.ico|\.map|\.bin|\.otf|\.mp3|\.svg)$ [NC]
+RewriteCond %{REQUEST_URI} !(\.css|\.js|\.png|\.jpg|\.gif|robots\.txt|\.docx|\.json|\.ico|\.map|\.bin|\.otf|\.mp3|\.svg|\.ttf|\.woff|\.woff2|\.eot|\.otf)$ [NC]
 RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]

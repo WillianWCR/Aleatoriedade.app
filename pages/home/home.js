@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
     });
 
     $("#randomizesite").click(function(){
-        var url = '/random';
+        var url = './random';
 		window.open(url);
     });
 });

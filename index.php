@@ -5,9 +5,11 @@
 
     if($url == 'random'){
 
-    }elseif($url == 'admin'){
-        require_once('admin.php');
+    }elseif($url == 'login'){
+        require_once('pages/login/login.php');
+    }elseif($url == 'register'){
+        require_once('pages/register/register.php');
     }else{
-        require_once('home.php');
+        require_once('pages/home/home.php');
     }
 ?>
