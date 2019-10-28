@@ -8,6 +8,7 @@
         ob_start(); 
     
         $url = $query['link_url'];
+        DB::query('UPDATE links SET accesses_count = accesses_count + 1 WHERE link_id = :link_id', array(':link_id'=>$query['link_id']));
         
         while (ob_get_status()) 
         {
