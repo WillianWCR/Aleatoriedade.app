@@ -5,11 +5,12 @@
 <html>
     <head>
         <title>Aleatoriedade.app!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="vendor/semantic-ui/semantic.min.css">
         <link rel="stylesheet" type="text/css" href="pages/home/home.css">
     </head>
     <body>
-        <div class="ui three column grid" style="height: 100%;">
+        <div class="ui stackable three column grid" style="height: 100%;">
             <div class="column center aligned">
                 
             </div>
